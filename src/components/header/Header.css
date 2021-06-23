@@ -11,6 +11,11 @@ header{
     justify-content: left;
     align-items: center;
 }
+.header-wrapper img{
+    max-width: 110px;
+    max-height: 120px;
+    margin-top: 10px;
+}
 .header_navigation{
     display: flex;
     align-items: center;
@@ -20,13 +25,13 @@ svg{
     color: white;
     width: 35px;
     height: 22px;
-    margin-left: 20px;
+    margin-left: 20px;   
 }
 .header_navigation ul{
     display: flex;
     list-style-type: none;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .header_navigation li{
     margin-right: 20px;

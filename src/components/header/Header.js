@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import logo from '../../Images/logo.png'
+import logo from '../../Images/logo - Copy.png'
 import { BsSearch } from "react-icons/bs";
 
 export default function header() {
@@ -9,7 +9,7 @@ export default function header() {
             <header>
                 <div className="container">
                      <div className="header-wrapper">
-                        <a href="#"><img src="#" />LOGO</a>
+                        <a href="#"><img src={logo} /></a>
                         <div className="header_navigation">
                             <ul>
                                 <li>
