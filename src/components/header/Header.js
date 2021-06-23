@@ -25,8 +25,17 @@ export default function header() {
                                     <a href="#">Plan your trip</a>
                                 </li>
                             </ul>
-                            <BsSearch />
+                            
                         </div>
+                        <div className="search-bar">
+                                <input 
+                                type="text"
+                                className="search-bar-input" 
+                                placeholder="Search here"
+                                aria-label="search" />
+                                
+                                <button className="search-bar-button"><BsSearch /></button>
+                            </div>
                      </div>
                 </div>
             </header>           
